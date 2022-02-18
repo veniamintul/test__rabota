@@ -1,0 +1,122 @@
+body {
+    margin:0px;
+    width:100%;
+    height:100%;
+    font-family: "Open Sans"; 
+    background-color:#fff;
+}
+* {
+  box-sizing: border-box;
+}
+
+ul, li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+margin: 0;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+
+.wrapper {
+  overflow-x: hidden;                      
+  min-height: 100%;
+ 
+}
+.container{
+  width: 1140px;
+  margin:0 auto;
+}
+
+.glavnaya{
+    height: 900px;
+    width: 100%;
+    background: url('glavnaya/fon.png') center top 0  no-repeat;
+    position: relative;
+}
+
+.glavnaya:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .5);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.gamburger{
+    display: none;
+}
+
+
+
+
+.glavnaya__block{
+    display: flex;
+    flex-direction: column;
+}
+
+.glavnaya__box{
+    display: flex;
+    justify-content:space-between;
+}
+
+.glavnaya__list{
+    display: flex;
+    margin-right:25px ; 
+}
+
+.glavnaya__list:last-child{
+    margin-right:0px ; 
+}
+
+
+
+.two__section{
+    height: 808px;
+    background: #ffff; 
+}
+
+
+
+.slider{
+    height: 780px;
+    background: #3A4574; 
+}
+
+
+.four__section{
+    height: 1930px;
+    background: #ffff;
+}
+
+.slider__two{
+    height: 605px;
+    background: #3A4574;   
+}
+
+
+.finish{
+    height: 2170px;
+    width: 100%;
+    background: #fff; 
+}
